@@ -1,0 +1,91 @@
+{
+    "company": {
+      "name": "Vantage Infra Projects",
+      "logo": {
+        "description": "A stylized logo incorporating the letters 'VP' with a building design. The logo is primarily white with a small gold/brown square incorporated into the building design.",
+        "colors": ["white", "gold", "brown", "dark blue"],
+        "text": {
+          "primary": "VANTAGE",
+          "secondary": "INFRA PROJECTS"
+        },
+        "decorativeElements": [
+          "Small white chevrons on the left and right sides",
+          "Small groups of gold/brown dots near the top and bottom center"
+        ]
+      }
+    },
+    "leadership": {
+      "founder": {
+        "name": "Krishna Chaitanya Reddy Ellenki",
+        "title": "Founder & CEO",
+        "qualifications": [
+          "Master of Science in Information Systems",
+          "MBA in Strategic Management"
+        ],
+        "image": {
+          "description": "A headshot of Krishna Chaitanya Reddy Ellenki wearing a light blue collared shirt, set against a blurred background of what appears to be an office or residential building exterior."
+        }
+      }
+    },
+    "vision": "At VANTAGE INFRA PROJECTS, our vision is to be the most trusted and preferred real estate agency, providing exceptional services and empowering individuals and communities to achieve their dreams of homeownership and real estate investment.",
+    "mission": "Our mission at VANTAGE INFRA PROJECTS is to deliver superior real estate solutions through a customer-centric approach, innovative technology, and a team of highly skilled professionals. We are committed to helping our clients navigate the complexities of the real estate market, making informed decisions, and achieving their goals. We strive to foster long-term relationships built on trust, transparency, and integrity.",
+    "team": "Our diverse team at VANTAGE INFRA PROJECTS brings together expertise from various disciplines, allowing us to offer comprehensive solutions tailored to our client's unique needs. We work collaboratively to deliver exceptional customer experiences and achieve outstanding results in the market.",
+    "projects": [
+      {
+        "name": "Boutique Resort with Farm houses",
+        "location": "Manneguda, Chevella",
+        "size": "35 acres",
+        "description": "35 acres of DTCP approved layout with lots of greenery and more than 5000 Sandal wood trees. Property in between 200 feet NH-163 Highway and upcoming RRR exit.",
+        "images": [
+          {
+            "type": "Aerial view",
+            "description": "An aerial view of a plotted land layout showing neatly divided plots with roads and greenery."
+          },
+          {
+            "type": "Property view",
+            "description": "A photograph of several traditional-style houses on stilts, surrounded by lush greenery, suggesting a resort or vacation home setting."
+          }
+        ]
+      },
+      {
+        "name": "Residential Building",
+        "location": "Siddipet, Telangana",
+        "size": "Half Acre (2420 Square Yards)",
+        "description": "A 5 Floor residential building with 50 units in a very prominent location of siddipet with club house aminities with cellar parking.",
+        "images": [
+          {
+            "type": "Rendering",
+            "description": "A rendering of a five-story residential building with a light-colored facade and brown accents."
+          },
+          {
+            "type": "Scale model",
+            "description": "A scale model showing the building's layout within a landscaped area, including parking and what appears to be a small playground or common area."
+          }
+        ]
+      },
+      {
+        "name": "Commercial Building",
+        "location": "Siddipet, Telangana",
+        "size": "500 Square Yards",
+        "description": "A 3 Storied commercial building with mezzanine floor of 15 feet. With ample car and bike parking space.",
+        "images": [
+          {
+            "type": "3D Rendering",
+            "description": "A 3D rendering of a three-storied commercial building with a modern design, combining glass and other materials. It shows retail space on the ground floor and office spaces on upper floors, with a visible staircase."
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "phone": "+91 99636 45346",
+      "closing": "THANK YOU"
+    },
+    "branding": {
+      "primaryColor": "dark blue",
+      "accentColors": ["white", "gold", "brown"],
+      "decorativeElements": [
+        "Decorative arrows pointing upwards on the left and downwards on the right",
+        "Small groups of brown dots at the top and bottom of the page"
+      ]
+    }
+  }
