@@ -17,12 +17,13 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo with Proper Alignment */}
           <Link href="/" className="flex items-center">
-            <img
-              src="https://res.cloudinary.com/dtttjumdo/image/upload/v1741079698/vantage_jpg-01_armvqq.jpg"
-              alt="Vantage Infra Projects"
-              className="h-20 max-w-[220px] object-contain rounded-md p-2 shadow-lg transition-transform transform hover:scale-105 duration-300 ease-in-out"
-            />
-          </Link>
+  <img
+    src="https://res.cloudinary.com/dtttjumdo/image/upload/v1741079698/vantage_jpg-01_armvqq.jpg"
+    alt="Vantage Infra Projects"
+    className="w-full h-24 max-w-[180px] object-contain rounded-md p-2 shadow-lg transition-transform transform hover:scale-105 duration-300 ease-in-out"
+  />
+</Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
