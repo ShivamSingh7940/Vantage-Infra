@@ -15,15 +15,14 @@ export default function Navbar() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo with Proper Alignment */}
+          {/* Align logo to the left */}
           <Link href="/" className="flex items-center">
-  <img
-    src="https://res.cloudinary.com/dtttjumdo/image/upload/v1741079698/vantage_jpg-01_armvqq.jpg"
-    alt="Vantage Infra Projects"
-    className="w-full h-24 max-w-[180px] object-contain rounded-md p-2 shadow-lg transition-transform transform hover:scale-105 duration-300 ease-in-out"
-  />
-</Link>
-
+            <img
+              src="https://res.cloudinary.com/dtttjumdo/image/upload/v1741170130/WhatsApp_Image_2025-03-05_at_3.51.36_PM_jvbmi3.jpg"
+              alt="Vantage Infra Projects"
+              className="h-26 max-w-[110px] object-contain rounded-md p-2 shadow-lg transition-transform transform hover:scale-105 duration-300 ease-in-out"
+            />
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
