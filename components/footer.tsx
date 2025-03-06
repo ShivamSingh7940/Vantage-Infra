@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400"> © 2025 Vantage Infra Projects. All rights reserved.
+          <p className="text-gray-400"> © 2024 Vantage Infra Projects. All rights reserved.
           </p>
         </div>
       </div>
