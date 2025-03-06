@@ -7,17 +7,6 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="bg-primary text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <div className="mb-6">
-            {/* Logo centered */}
-            <div className="mx-auto w-48 h-48 relative">
-              <Image 
-                src="https://res.cloudinary.com/dtttjumdo/image/upload/v1741170130/WhatsApp_Image_2025-03-05_at_3.51.36_PM_jvbmi3.jpg" // Replace with your logo URL
-                alt="Vantage Infra Projects Logo" 
-                fill 
-                className="object-contain"
-              />
-            </div>
-          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Vantage Infra Projects</h1>
           <p className="text-xl max-w-3xl mx-auto opacity-90">
             We are a premier real estate company dedicated to helping clients find their dream properties
@@ -25,8 +14,39 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Our Story */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold mb-6"><b>Our Story</b></h2>
+              <h2><b>VISION</b></h2>
+              <p className="text-muted-foreground mb-6">
+               "At VANTAGE INFRA PROJECTS, our vision is to be the most trusted and preferred real estate agency, providing exceptional services and empowering individuals and communities to achieve their dreams of homeownership and real estate investment."
+              </p>
+              <h2><b>MISSION</b></h2>
+              <p className="text-muted-foreground mb-6">
+               "Our mission at VANTAGE INFRA PROJECTS is to deliver superior real estate solutions through a customer-centric approach, innovative technology, and a team of highly skilled professionals. We are committed to helping our clients navigate the complexities of the real estate market, making informed decisions, and achieving their goals."
+              </p>
+              <h2><b>TEAM</b></h2>
+              <p className="text-muted-foreground">
+               "Our diverse team at VANTAGE INFRA PROJECTS brings together expertise from various disciplines, allowing us to offer comprehensive solutions tailored to our clients' unique needs."
+              </p>
+            </div>
+            <div className="relative h-[500px] rounded-lg overflow-hidden">
+              <Image
+                src="https://res.cloudinary.com/dtttjumdo/image/upload/v1741079698/vantage_jpg-01_armvqq.jpg"
+                alt="Our office building"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Our Mission */}
-      <section className="py-20 bg-secondary/30">
+      {/* <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
           <p className="text-xl max-w-3xl mx-auto mb-12">
@@ -46,49 +66,52 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* About Founder Section */}
-      <section className="py-20 bg-secondary/10">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 text-primary">About Founder</h2>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
-              Our team of experienced professionals is dedicated to providing exceptional service.
-            </p>
-          </div>
+      
+{/* Our Team */}
+{/* About Founder Section */}
+<section className="py-20 bg-secondary/10">
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold mb-4 text-primary">About Founder</h2>
+      <p className="text-muted-foreground max-w-2xl mx-auto">
+        Our team of experienced professionals is dedicated to providing exceptional service.
+      </p>
+    </div>
 
-          <div className="flex flex-col items-center text-center">
-            {team.map((member, index) => (
-              <div 
-                key={index} 
-                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6 w-full md:w-3/4 lg:w-2/3"
-              >
-                <div className="flex justify-center mb-4">
-                  <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary">
-                    <Image 
-                      src={member.image || "/placeholder.svg"} 
-                      alt={member.name} 
-                      fill 
-                      className="object-cover"
-                    />
-                  </div>
-                </div>
-                <h3 className="text-3xl font-bold text-primary mb-2">{member.name}</h3>
-                <p className="text-xl text-gray-600 mb-4">{member.position}</p>
-                <p className="text-muted-foreground text-lg">"Master of Science in Information Systems <br/>MBA in Strategic Management"</p>
-              </div>
-            ))}
+    <div className="flex flex-col items-center text-center">
+      {team.map((member, index) => (
+        <div 
+          key={index} 
+          className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 p-6 w-full md:w-3/4 lg:w-2/3"
+        >
+          <div className="flex justify-center mb-4">
+            <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary">
+              <Image 
+                src={member.image || "/placeholder.svg"} 
+                alt={member.name} 
+                fill 
+                className="object-cover"
+              />
+            </div>
           </div>
+          <h3 className="text-3xl font-bold text-primary mb-2">{member.name}</h3>
+          <p className="text-xl text-gray-600 mb-4">{member.position}</p>
+          <p className="text-muted-foreground text-lg">"Master of Science in Information Systems <br/>MBA in Strategic Management"</p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Legal Information */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Legal Information</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Vantage Infra Projects  is a licensed real estate brokerage firm operating under all applicable laws and
+          Vantage Infra Projects  is a licensed real estate brokerage firm operating under all applicable laws and
             regulations.
           </p>
           <p className="text-muted-foreground"></p>
@@ -129,6 +152,24 @@ const team = [
     bio: "",
     image: "https://res.cloudinary.com/djy15bn9n/image/upload/v1740912315/WhatsApp_Image_2025-03-02_at_3.57.03_PM_dyoobg.jpg",
   },
+  // {
+  //   name: "Srinivasa Rao Pentum",
+  //   position: "Chief Operating Officer",
+  //   bio: "BE in Civil Engineering",
+  //   image: "https://res.cloudinary.com/djy15bn9n/image/upload/v1740912315/WhatsApp_Image_2025-03-02_at_3.57.02_PM_2_a3xmlc.jpg",
+  // },
+  // {
+  //   name: "Marcus Johnson",
+  //   position: "Senior Real Estate Agent",
+  //   bio: "Marcus specializes in high-end residential properties and has a proven track record of successful transactions.",
+  //   image: "/placeholder.svg?height=400&width=300",
+  // },
+  // {
+  //   name: "Sophia Rodriguez",
+  //   position: "Marketing Director",
+  //   bio: "Sophia develops innovative marketing strategies to showcase our properties to the right audience.",
+  //   image: "/placeholder.svg?height=400&width=300",
+  // },
 ]
 
 const stats = [
@@ -149,3 +190,4 @@ const stats = [
     label: "Industry Awards",
   },
 ]
+
