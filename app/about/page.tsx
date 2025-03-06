@@ -95,7 +95,7 @@ export default function AboutPage() {
           </div>
           <h3 className="text-3xl font-bold text-primary mb-2">{member.name}</h3>
           <p className="text-xl text-gray-600 mb-4">{member.position}</p>
-          <p className="text-muted-foreground text-lg">{member.bio}</p>
+          <p className="text-muted-foreground text-lg">"Master of Science in Information Systems <br/>MBA in Strategic Management"</p>
         </div>
       ))}
     </div>
@@ -146,7 +146,7 @@ const team = [
   {
     name: "Krishna Chaitanya Reddy Ellenki",
     position: "CEO & Founder",
-    bio: "Master of Science in Information Systems MBA in Strategic Management",
+    bio: "",
     image: "https://res.cloudinary.com/djy15bn9n/image/upload/v1740912315/WhatsApp_Image_2025-03-02_at_3.57.03_PM_dyoobg.jpg",
   },
   // {

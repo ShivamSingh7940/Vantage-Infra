@@ -63,7 +63,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+91  9963645346</p>
+                    <p className="text-muted-foreground">+91 7032021565</p>
                   </div>
                 </div>
 
@@ -74,7 +74,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">vintageinfraprojects2@gmail.com</p>
+                    <p className="text-muted-foreground">vantageinfraprojects2@gmail.com</p>
                   </div>
                 </div>
 
@@ -87,9 +87,9 @@ export default function ContactPage() {
                     <h3 className="text-lg font-semibold mb-1">Office Hours</h3>
                     <p className="text-muted-foreground space-y-1">
                       Monday - Saturday: <span className="font-medium">10:00 AM - 6:00 PM</span> <br />
-                      Kokapet, Rangareddy District,
+                      H.No-10-111/A/509,Block A ,EIPL RIVERA,Manchirevula,
                       <br/>
-                       Telangana 500089.
+                      Hyderabad, Rangareddy District,Telangana 500089.
                       {/* <span className="text-red-500 font-semibold">Sunday: Closed</span> */}
                     </p>
                   </div>

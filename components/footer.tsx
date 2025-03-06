@@ -16,7 +16,7 @@ export default function Footer() {
               <a href="https://www.instagram.com/vantageinfra?igsh=M3kzaGtpajZ2ZGl5" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://wa.me/919963645346" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://wa.me/917032021565" className="text-gray-400 hover:text-white transition-colors">
                 <MessageCircle size={20} />
               </a>
             </div>
@@ -80,13 +80,13 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 text-gray-400 flex-shrink-0 mt-1" />
                 <span className="text-gray-400">
-                  Kokapet, Rangareddy District, <br />
-                  Telangana 500089
+                H.No-10-111/A/509,Block A ,EIPL RIVERA,Manchirevula, <br />
+                  Hyderabad,Rangareddy,Telangana 500089
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 text-gray-400" />
-                <span className="text-gray-400">+91 9963645346</span>
+                <span className="text-gray-400">+91 7032021565</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-gray-400" />
@@ -97,7 +97,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400"> All rights reserved.</p>
+          <p className="text-gray-400"> © 2025 Vantage Infra Projects. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
